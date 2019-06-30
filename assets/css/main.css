@@ -1,0 +1,70 @@
+* {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-image: url("../imgs/gray.png");
+}
+
+.navbar {
+  background-color: #e3f2fd;
+}
+
+a {
+  color: black;
+  text-align: right;
+  margin: auto;
+  float: right;
+  padding: 1em;
+}
+
+.active {
+  background-color: salmon;
+  color: black;
+}
+
+.imgs {
+  width: 304px;
+  height: 236px;
+  margin: auto;
+  border: 1em;
+  display: inline-block;
+}
+
+p {
+  margin: auto;
+  border: 1em;
+  display: inline-block;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  margin: 0;
+  background-color: white;
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+.submitbutton {
+  background-color: salmon;
+  height: 6em;
+  width: 8em;
+  text-align: center;
+  margin: auto;
+}
+
+.footer {
+  margin-top: 0em;
+  background-color: #e3f2fd;
+  height: 3em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
