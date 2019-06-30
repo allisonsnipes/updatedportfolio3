@@ -13,10 +13,9 @@ body {
 
 a {
   color: black;
-  text-align: right;
   margin: auto;
-  float: right;
   padding: 1em;
+  text-align: center;
 }
 
 .active {
@@ -25,10 +24,10 @@ a {
 }
 
 .imgs {
-  width: 304px;
-  height: 236px;
+  width: 400px;
+  height: 400px;
   margin: auto;
-  border: 1em;
+  border: 4em;
   display: inline-block;
 }
 
@@ -36,6 +35,12 @@ p {
   margin: auto;
   border: 1em;
   display: inline-block;
+}
+
+ul, li {
+  list-style: none;
+  text-align: center;
+  margin: auto;
 }
 
 .center {
@@ -61,10 +66,10 @@ p {
 .footer {
   margin-top: 0em;
   background-color: #e3f2fd;
-  height: 3em;
+  height: 1em;
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
+  font-size: .5em;
 }
